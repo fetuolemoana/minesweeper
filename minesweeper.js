@@ -21,32 +21,38 @@ var board = {
     {
       col: 1, 
       row: 0,
-      isMine: false
+      isMine: false,
+      hidden: true
     },
     {
       col: 1, 
       row: 1,
-      isMine: false
+      isMine: false,
+      hidden: true
     }, 
     {
       col: 1, 
       row: 2,
-      isMine: false
+      isMine: false,
+      hidden: true
     }, 
     {
       col: 2, 
       row: 0,
-      isMine: false
+      isMine: false,
+      hidden: true
     }, 
     {
       col: 2, 
       row: 1,
-      isMine: false
+      isMine: false,
+      hidden: true
     }, 
     {
       col: 2, 
       row: 2,
-      isMine: false
+      isMine: false,
+      hidden: true
     }
   ]
 };
