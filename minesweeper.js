@@ -5,39 +5,48 @@ var board = {
   cells: [
     {
       col: 0, 
-      row: 0
+      row: 0,
+      isMine: false
     }, 
     {
       col: 0, 
-      row: 1
+      row: 1,
+      isMine: false
     }, 
     {
       col: 0, 
-      row: 2
+      row: 2,
+      isMine: false
     },
     {
       col: 1, 
-      row: 0
+      row: 0,
+      isMine: false
     },
     {
       col: 1, 
-      row: 1
+      row: 1,
+      isMine: false
     }, 
     {
       col: 1, 
-      row: 2
+      row: 2,
+      isMine: false
     }, 
     {
       col: 2, 
-      row: 0
+      row: 0,
+      isMine: false
     }, 
     {
       col: 2, 
-      row: 1
+      row: 1,
+      isMine: false
     }, 
     {
       col: 2, 
-      row: 2
+      row: 2,
+      isMine: false
     }
   ]
 };
