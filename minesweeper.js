@@ -7,55 +7,64 @@ var board = {
       col: 0, 
       row: 0,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     }, 
     {
       col: 0, 
       row: 1,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     }, 
     {
       col: 0, 
       row: 2,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     },
     {
       col: 1, 
       row: 0,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     },
     {
       col: 1, 
       row: 1,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     }, 
     {
       col: 1, 
       row: 2,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     }, 
     {
       col: 2, 
       row: 0,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     }, 
     {
       col: 2, 
       row: 1,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     }, 
     {
       col: 2, 
       row: 2,
       isMine: false,
-      hidden: true
+      hidden: true, 
+      surroundingMines: countSurroundingMines
     }
   ]
 };
