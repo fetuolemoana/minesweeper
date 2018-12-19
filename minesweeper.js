@@ -6,17 +6,20 @@ var board = {
     {
       col: 0, 
       row: 0,
-      isMine: false
+      isMine: false,
+      hidden: true
     }, 
     {
       col: 0, 
       row: 1,
-      isMine: false
+      isMine: false,
+      hidden: true
     }, 
     {
       col: 0, 
       row: 2,
-      isMine: false
+      isMine: false,
+      hidden: true
     },
     {
       col: 1, 
