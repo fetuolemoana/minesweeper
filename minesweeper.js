@@ -104,7 +104,7 @@ function countSurroundingMines (cell) {
   let surroundCount = 0
 
   for (let i = 0; i < board.cells.length; i++) {
-    if (board.cells.isMine === true) {
+    if (board.cells[i].isMine === true) {
       surroundCount++; 
     }
   }
