@@ -48,7 +48,7 @@ var board = {
     {
       col: 2, 
       row: 0,
-      isMine: false,
+      isMine: true,
       hidden: true, 
       surroundingMines: countSurroundingMines
     }, 
@@ -74,8 +74,8 @@ function startGame () {
   // Loop through all board.cells 
   // Grab countSurroundingMines 
   for (i = 0; i < board.cells.length; i++) {
-    board.cells[i] = countSurroundingMines(); 
-  }
+    board.cells.surroundingMines[i] = countSurroundingMines(board.cells[i]); 
+  };
 
   lib.initBoard()
 }
