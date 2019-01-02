@@ -74,7 +74,7 @@ function startGame () {
   // Loop through all board.cells 
   // Grab countSurroundingMines 
   for (i = 0; i < board.cells.length; i++) {
-    
+    board.cells[i] = countSurroundingMines(); 
   }
 
   lib.initBoard()
