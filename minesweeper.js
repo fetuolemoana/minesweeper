@@ -70,6 +70,8 @@ var board = {
 };
 
 function startGame () {
+  document.addEventListener("click", checkForWin); 
+  document.addEventListener("contextmenu", checkForWin); 
   // Don't remove this function call: it makes the game work!
   // Loop through all board.cells 
   // Grab countSurroundingMines 
@@ -86,6 +88,7 @@ function startGame () {
 // 1. Are all of the cells that are NOT mines visible?
 // 2. Are all of the mines marked?
 function checkForWin () {
+
 
   // You can use this function call to declare a winner (once you've
   // detected that they've won, that is!)
@@ -112,4 +115,5 @@ function countSurroundingMines (cell) {
   }
   return surroundCount; 
 }
+
 
